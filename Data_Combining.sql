@@ -30,7 +30,3 @@ CREATE TABLE IF NOT EXISTS `2022_tripdata.combined_data` AS (
   SELECT * FROM `2022_tripdata.202212_tripdata`
 );
 
--- checking no of rows which are 5667717
-
-SELECT COUNT(*)
-FROM `2022_tripdata.combined_data`;
