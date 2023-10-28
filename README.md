@@ -16,7 +16,7 @@ Moreno has outlined a clear objective: Formulate marketing strategies with the s
 ## Task
 I have been tasked by Moreno to address the first question: "What are the distinctions in how annual members and casual riders utilize Cyclistic bikes?" My objective is to generate this report and come up with a new marketing strategy to convert casual riders into annual members.
 
-### Data Analysis Process
+## Data Analysis Process
 
 ## Ask
 Devise marketing strategies to convert casual riders to members.
