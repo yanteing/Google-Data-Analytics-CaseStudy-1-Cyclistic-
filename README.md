@@ -16,12 +16,29 @@ Moreno has outlined a clear objective: Formulate marketing strategies with the s
 ## Task
 I have been tasked by Moreno to address the first question: "What are the distinctions in how annual members and casual riders utilize Cyclistic bikes?" My objective is to generate this report and come up with a new marketing strategy to convert casual riders into annual members.
 
+
 ## Data Analysis Process
 
-## Ask
-Devise marketing strategies to convert casual riders to members.
+## 1.Ask
 ### Analysis Questions
 Three questions will guide the future marketing program:  
 1. How do annual members and casual riders use Cyclistic bikes differently?  
 2. Why would casual riders buy Cyclistic annual memberships?  
-3. How can Cyclistic use digital media to influence casual riders to become members?  
+3. How can Cyclistic use digital media to influence casual riders to become members?
+
+Moreno has assigned me the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
+## 2.Prepare
+### Data Source
+I will use Cyclistic’s historical trip data to analyze and identify trends from Jan 2022 to Dec 2022 which can be downloaded from [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement)  
+
+I intend to utilize Cyclistic's historical trip data to examine and uncover patterns spanning from January 2022 to December 2022, accessible for download through the divvy_tripdata source. The dataset is publicly available, enabling the investigation of how various customer categories utilize Cyclistic bicycles. The dataset comprises 12 files following the naming convention YYYYMM-divvy-tripdata, with each file containing data for a single month. This data includes ride IDs, bike types, start and end times, start and end stations, geographic coordinates, and rider categorization as a member or casual rider.
+
+## 3.Proces
+I am using BigQuery to perform my data cleaning & data analysis. The main reason is because the total number of rows inside the combined dataset has around 5.6 million rows, and BigQuery has the capability & capacity to support this huge volume of data, wherelse Microsoft Excel only has a limit of around 1 million rows.
+
+### Combined Dataset
+SQL Query: [Data Combining](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Data_Combining.sql)
+12 csv files are uploaded into this table and apended, containing around 5.6 million rows of data for the year 2022
+
+Data_Cleaning
+
