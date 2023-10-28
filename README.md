@@ -14,5 +14,14 @@ A thorough financial analysis has revealed that annual members yield significant
 Moreno has outlined a clear objective: Formulate marketing strategies with the specific aim of transitioning casual riders into annual members. To achieve this, our marketing analyst team needs to gain a deeper understanding of the differences between annual members and casual riders, uncover the motivations behind casual riders opting for membership, and explore the role of digital media in influencing our marketing tactics. Moreno and her team are eager to dive into Cyclistic's historical bike trip data to uncover meaningful trends.
 
 ## Task
-I have been tasked by Moreno to address the first question: "What are the distinctions in how annual members and casual riders utilize Cyclistic bikes?" Your objective is to generate this report and come up with a new marketing strategy to convert casual riders into annual members.
+I have been tasked by Moreno to address the first question: "What are the distinctions in how annual members and casual riders utilize Cyclistic bikes?" My objective is to generate this report and come up with a new marketing strategy to convert casual riders into annual members.
 
+### Data Analysis Process
+
+## Ask
+Devise marketing strategies to convert casual riders to members.
+### Analysis Questions
+Three questions will guide the future marketing program:  
+1. How do annual members and casual riders use Cyclistic bikes differently?  
+2. Why would casual riders buy Cyclistic annual memberships?  
+3. How can Cyclistic use digital media to influence casual riders to become members?  
