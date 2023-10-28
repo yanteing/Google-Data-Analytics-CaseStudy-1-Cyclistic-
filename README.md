@@ -40,5 +40,12 @@ I am using BigQuery to perform my data cleaning & data analysis. The main reason
 SQL Query: [Data Combining](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Data_Combining.sql)
 12 csv files are uploaded into this table and apended, containing around 5.6 million rows of data for the year 2022
 
-Data_Cleaning
+### Data_Cleaning
+SQL Query: [Data Cleaning](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Data_Cleaning.sql)
+1. All the rows that are having missing values have been removed
+2. 3 self derived columns have been added: ride_length for duration of the trip, day_of_week and month
+3. Trips with duration less than a minute and longer than a day are excluded
+4. Total of around 1.3 million rows are removed in this step
+
+## 4.Analyze & Share
 
