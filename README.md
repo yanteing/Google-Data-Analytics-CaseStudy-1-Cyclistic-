@@ -51,6 +51,9 @@ SQL Query: [Data Cleaning](https://github.com/yanteing/Google-Data-Analytics-Cas
 SQL Query: [Data Analysis](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Data_Analysis.sql)
 Data Visualization: Tableau (Link website)
 
+![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Images/Type%20of%20Bikes.png)
+
+
 I have prepared my analysis and now I would like to visualize this in Tableau. The first analysis question is: How do annual members and casual riders use Cyclistic bikes differently?
 
 To start this off,  the comparison between member and casual riders are shown based on the types of bicycles they use
