@@ -21,7 +21,7 @@ My objective is to generate this report and come up with a new marketing strateg
 
 ## Data Analysis Process
 
-## 1.Ask
+## 1. Ask
 ### Analysis Questions
 Three questions will guide the future marketing program:  
 1. How do annual members and casual riders use Cyclistic bikes differently?  
@@ -29,13 +29,13 @@ Three questions will guide the future marketing program:
 3. How can Cyclistic use digital media to influence casual riders to become members?
 
 Moreno has assigned me the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
-## 2.Prepare
+## 2. Prepare
 ### Data Source
 I will use Cyclistic’s historical trip data to analyze and identify trends from Jan 2022 to Dec 2022 which can be downloaded from [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement)  
 
 I intend to utilize Cyclistic's historical trip data to examine and uncover patterns spanning from January 2022 to December 2022, accessible for download through the divvy_tripdata source. The dataset is publicly available, enabling the investigation of how various customer categories utilize Cyclistic bicycles. The dataset comprises 12 files following the naming convention YYYYMM-divvy-tripdata, with each file containing data for a single month. This data includes ride IDs, bike types, start and end times, start and end stations, geographic coordinates, and rider categorization as a member or casual rider.
 
-## 3.Process
+## 3. Process
 I am using BigQuery to perform my data cleaning & data analysis. The main reason is because the total number of rows inside the combined dataset has around 5.6 million rows, and BigQuery has the capability & capacity to support this huge volume of data, wherelse Microsoft Excel only has a limit of around 1 million rows.
 
 ### Combined Dataset
@@ -50,7 +50,7 @@ SQL Query: [Data Cleaning](https://github.com/yanteing/Google-Data-Analytics-Cas
 3. Trips with duration less than a minute and longer than a day are excluded
 4. Total of around 1.3 million rows are removed in this step
 
-## 4.Analyze & Share
+## 4. Analyze & Share
 SQL Query: [Data Analysis](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Data_Analysis.sql)
 
 Data Visualization: Tableau (Link website)
@@ -105,7 +105,8 @@ A comparable pattern is evident in the ending station locations. Casual riders c
 After recognizing the distinctions between casual and member riders, the development of marketing strategies aimed at converting casual riders into members is a viable strategy.
 
 Recommendations:
-1.Consider implementing marketing campaigns during the spring and summer at tourist and recreational sites frequented by casual riders.
-2.Since casual riders display heightened activity during weekends and the summer and spring seasons, consider introducing seasonal or weekend-only membership options tailored to their preferences.
-3.Given that casual riders tend to ride for extended durations compared to members, explore the possibility of offering discounts for longer rides. This approach could serve as an incentive for casual riders and potentially encourage members to extend their ride durations as well.
+
+1. Consider implementing marketing campaigns during the spring and summer at tourist and recreational sites frequented by casual riders
+2. Since casual riders display heightened activity during weekends and the summer and spring seasons, consider introducing seasonal or weekend-only membership options tailored to their preferences
+3. Given that casual riders tend to ride for extended durations compared to members, explore the possibility of offering discounts for longer rides. This approach could serve as an incentive for casual riders and potentially encourage members to extend their ride durations as well.
 
