@@ -2,7 +2,7 @@
 Course: https://www.coursera.org/learn/google-data-analytics-capstone
 
 ## Introduction
-In this case study, I will be performing several real-world tasks of a junior data analyst at a fictional company called Cyclistic. I will be implementing steps of the data analysis processs:[Ask,Prepare,Process,Analyze,Share,Act] which I have learned throughout the course and applying it into this project
+In this case study, I will be performing several real-world tasks of a junior data analyst at a fictional company called Cyclistic. I will be implementing steps of the data analysis processs: **[Ask,Prepare,Process,Analyze,Share,Act]** which I have learned throughout the course and applying it into this project
 
  ## Scenario
  Cyclistic, a bike-share program operating in Chicago, boasts a fleet of more than 5,800 bicycles stationed at 600 docking stations. Its unique feature lies in its commitment to inclusivity, offering reclining bikes, hand tricycles, and cargo bikes to cater to individuals with disabilities and those who cannot use conventional two-wheeled bikes. While the majority of riders prefer traditional bicycles, approximately 8% opt for assistive options. Cyclistic serves both recreational riders and a significant 30% who use it for daily commuting.
@@ -66,7 +66,7 @@ Of the total riders, members account for 59.7%, with casual riders making up the
 
 Next the number of trips distributed by the months, days of the week and hours of the day are examined.  
 
-(Image 2)
+![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Images/Total%20Trips.png)
 
 **Months:** In terms of monthly trips, both casual riders and members demonstrate similar patterns, with higher trip frequencies during the spring and summer, and a decrease in the winter months. The closest the gap between casual riders and members becomes is in July, during the summer
 
@@ -78,7 +78,7 @@ From these observations, we can infer that members likely use the bikes for week
 
 The comparison of trip durations is carried out to identify variations in the riding behavior between casual and member riders 
 
-(Image 3)
+![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Images/Average%20Ride%20Duration.png)
 
 It's worth noting that casual riders typically have longer average trip durations compared to members. The average journey duration for members remains consistent throughout the year, week, and day. In contrast, casual riders exhibit variations in their trip durations. During the spring and summer, on weekends, and between 10 am and 2 pm, they cover longer distances, while they opt for shorter trips between 5 am and 8 am
 
@@ -86,11 +86,11 @@ These findings lead to the inference that casual commuters, on average, travel l
 
 To gain a deeper understanding of the disparities between casual and member riders, an analysis of the starting and ending station locations can provide valuable insights. By applying filters to identify stations with the highest trip frequencies, we can draw further conclusions
 
-(Image 4)
+![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Images/Starting%20Locations.png)
 
 Casual riders often initiate their trips from stations situated near museums, parks, beaches, harbors, and aquariums, whereas members tend to commence their journeys from stations in proximity to universities, residential areas, restaurants, hospitals, grocery stores, theaters, schools, banks, factories, train stations, parks, and plazas
 
-(Image 5)
+![image](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Images/Ending%20Location.png)
 
 A comparable pattern is evident in the ending station locations. Casual riders conclude their journeys near parks, museums, and other recreational destinations, whereas members finalize their trips in close proximity to universities, residential and commercial areas. This serves as compelling evidence that casual riders primarily utilize bikes for leisure activities, while members heavily depend on them for their daily commutes
 
