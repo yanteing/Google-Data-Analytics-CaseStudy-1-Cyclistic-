@@ -53,7 +53,7 @@ SQL Query: [Data Cleaning](https://github.com/yanteing/Google-Data-Analytics-Cas
 ## 4. Analyze & Share
 SQL Query: [Data Analysis](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Data_Analysis.sql)
 
-Data Visualization: Tableau (Link website)
+Data Visualization: [Tableau](https://public.tableau.com/app/profile/chang.yan.teing/viz/GoogleAnalyticsCaseStudy1_16985876933410/BikeTypesDashboard#1)
 
 I have prepared my analysis and now I would like to visualize this in Tableau. 
 The first analysis question is: How do annual members and casual riders use Cyclistic bikes differently?
@@ -108,5 +108,5 @@ Recommendations:
 
 1. Consider implementing marketing campaigns during the spring and summer at tourist and recreational sites frequented by casual riders
 2. Since casual riders display heightened activity during weekends and the summer and spring seasons, consider introducing seasonal or weekend-only membership options tailored to their preferences
-3. Given that casual riders tend to ride for extended durations compared to members, explore the possibility of offering discounts for longer rides. This approach could serve as an incentive for casual riders and potentially encourage members to extend their ride durations as well.
+3. Given that casual riders tend to ride for extended durations compared to members, explore the possibility of offering discounts for longer rides. This approach could serve as an incentive for casual riders and potentially encourage members to extend their ride durations as well
 
