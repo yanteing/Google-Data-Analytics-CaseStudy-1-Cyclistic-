@@ -40,17 +40,19 @@ I am using BigQuery to perform my data cleaning & data analysis. The main reason
 
 ### Combined Dataset
 SQL Query: [Data Combining](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Data_Combining.sql)
+
 12 csv files are uploaded into this table and apended, containing around 5.6 million rows of data for the year 2022
 
 ### Data_Cleaning
 SQL Query: [Data Cleaning](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Data_Cleaning.sql)
 1. All the rows that are having missing values have been removed
-2. 3 self derived columns have been added: ride_length for duration of the trip, day_of_week and month
+2. Three self derived columns have been added: ride_length for duration of the trip, day_of_week and month
 3. Trips with duration less than a minute and longer than a day are excluded
 4. Total of around 1.3 million rows are removed in this step
 
 ## 4.Analyze & Share
 SQL Query: [Data Analysis](https://github.com/yanteing/Google-Data-Analytics-CaseStudy/blob/main/Data_Analysis.sql)
+
 Data Visualization: Tableau (Link website)
 
 I have prepared my analysis and now I would like to visualize this in Tableau. 
@@ -92,4 +94,18 @@ Casual riders often initiate their trips from stations situated near museums, pa
 
 A comparable pattern is evident in the ending station locations. Casual riders conclude their journeys near parks, museums, and other recreational destinations, whereas members finalize their trips in close proximity to universities, residential and commercial areas. This serves as compelling evidence that casual riders primarily utilize bikes for leisure activities, while members heavily depend on them for their daily commutes
 
-Summary:
+**Summary:**
+|Casual|Member|
+|------|------|
+|Opt for bike rides throughout the day, with a higher frequency on weekends during the summer and spring, primarily for leisure purposes|Tend to choose weekday rides during commuting hours (8 am / 5 pm) in the summer and spring seasons|
+|Cover longer distances, around twice as much as members, but ride less frequently|Engage in more frequent bike rides, yet their trips are notably shorter, approximately half the duration of casual riders' trips|
+|Commence and conclude their journeys in proximity to parks, museums, coastal areas, and other recreational venues|Initiate and conclude their trips in the vicinity of universities, residential neighborhoods, and commercial districts|
+
+## Act 
+After recognizing the distinctions between casual and member riders, the development of marketing strategies aimed at converting casual riders into members is a viable strategy.
+
+Recommendations:
+1.Consider implementing marketing campaigns during the spring and summer at tourist and recreational sites frequented by casual riders.
+2.Since casual riders display heightened activity during weekends and the summer and spring seasons, consider introducing seasonal or weekend-only membership options tailored to their preferences.
+3.Given that casual riders tend to ride for extended durations compared to members, explore the possibility of offering discounts for longer rides. This approach could serve as an incentive for casual riders and potentially encourage members to extend their ride durations as well.
+
